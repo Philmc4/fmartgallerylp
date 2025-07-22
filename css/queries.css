@@ -1,0 +1,258 @@
+@media (max-width: 1140px) {
+  .text-1 {
+    font-size: 70px;
+  }
+  .text-2 {
+    font-size: 55px;
+    line-height: 90%;
+  }
+  .text-3 {
+    font-size: 50px;
+    line-height: 90%;
+  }
+
+  main {
+    max-width: 768px;
+  }
+
+  .hero {
+    max-width: 689px;
+    min-height: 700px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url(/starter-code/assets/tablet/image-hero.jpg);
+    background-position: left;
+    gap: 3rem;
+  }
+
+  .hero h1 {
+    max-width: 360px;
+    margin-top: 0;
+  }
+
+  .hero-content {
+    max-width: 360px;
+    gap: 3rem;
+  }
+  .feature-section {
+    padding: 200px 0;
+    gap: 0.75rem;
+    max-width: 689px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .your-day-image {
+    display: none;
+  }
+  .your-day-image-tablet {
+    display: inherit;
+  }
+
+  .your-day {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    min-height: 400px;
+    align-items: center;
+  }
+
+  .your-day-content {
+    gap: 1.5rem;
+    max-width: 223px;
+  }
+  .be-inspired-image-tablet {
+    display: inherit;
+  }
+  .be-inspired-image {
+    display: none;
+  }
+  .smaller-inspired-image-tablet {
+    display: inherit;
+  }
+  .smaller-inspired-image {
+    display: none;
+  }
+
+  .come-and-be {
+    gap: 0.75rem;
+    max-width: 689px;
+    min-height: 720px;
+  }
+
+  .be-inspired-column {
+    gap: 0.75rem;
+    justify-content: space-between;
+  }
+
+  .inspired-content {
+    padding: 80px 32px;
+    gap: 0.75rem;
+  }
+  footer {
+    padding: 48px 40px;
+    width: 100%;
+  }
+
+  .footer-content,
+  .footer-content-location {
+    max-width: 689px;
+    min-height: 100px;
+  }
+
+  .footer-image {
+    width: 110px;
+    height: 40px;
+  }
+  .footer-content p {
+    max-width: 276px;
+  }
+  .location {
+    max-width: 768px;
+    background-image: url(/starter-code/assets/tablet/image-map.png);
+  }
+  .location-hero {
+    max-width: 689px;
+  }
+  .our-location {
+    max-width: 768px;
+    min-height: 411px;
+    padding: 80px 40px;
+  }
+  .our-location-content {
+    max-width: 689px;
+  }
+  .our-location-content h3 {
+    max-width: 223px;
+  }
+  .our-address {
+    gap: 1.25rem;
+    max-width: 398px;
+  }
+  .our-address p {
+    color: white;
+  }
+  .our-address-top-content {
+    gap: 1rem;
+  }
+  .footer-content-location p {
+    max-width: 276px;
+  }
+}
+
+@media (max-width: 700px) {
+  .text-1 {
+    font-size: 60px;
+  }
+  main {
+    max-width: 375px;
+  }
+  .hero {
+    max-width: 375px;
+    min-height: 675px;
+    justify-content: end;
+    align-items: center;
+    background-image: url(/starter-code/assets/mobile/image-hero.jpg);
+    background-position: top;
+    gap: 2rem;
+  }
+  .hero h1 {
+    max-width: 343px;
+    margin-top: 0;
+  }
+  .hero-content {
+    max-width: 343px;
+    gap: 2rem;
+  }
+  .feature-section {
+    padding: 100px 0;
+    gap: 2rem;
+    max-width: 343px;
+  }
+  .your-day-image-tablet {
+    display: none;
+  }
+  .your-day-image-mobile {
+    display: inherit;
+    order: 1;
+  }
+  .your-day {
+    flex-direction: column;
+    min-height: 575px;
+    gap: 1.5rem;
+  }
+  .your-day-content {
+    gap: 1.5rem;
+    max-width: 343px;
+    order: 2;
+  }
+  .be-inspired-image-mobile {
+    display: inherit;
+  }
+  .be-inspired-image-tablet {
+    display: none;
+  }
+  .smaller-inspired-image-mobile {
+    display: inherit;
+  }
+  .smaller-inspired-image-tablet {
+    display: none;
+  }
+  .come-and-be {
+    gap: 1rem;
+    max-width: 343px;
+    min-height: 1000px;
+    flex-direction: column;
+  }
+  .be-inspired-column {
+    gap: 1rem;
+    justify-content: space-between;
+  }
+  .inspired-content {
+    padding: 48px 24px;
+    gap: 1rem;
+  }
+  .footer-content,
+  .footer-content-location {
+    max-width: 343px;
+    min-height: 240px;
+    flex-direction: column;
+  }
+
+  .footer-image {
+    width: 110px;
+    height: 40px;
+  }
+  .footer-content p {
+    max-width: 295px;
+  }
+  .location {
+    max-width: 375px;
+    background-image: url(/starter-code/assets/mobile/image-map.png);
+    background-position: top;
+  }
+  .location-hero {
+    max-width: 343px;
+  }
+  .our-location {
+    max-width: 375px;
+    min-height: 533px;
+    padding: 80px 16px;
+    flex-direction: column;
+  }
+  .our-location-content {
+    max-width: 343px;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .our-location-content h3 {
+    max-width: 343px;
+  }
+  .our-address {
+    gap: 1.25rem;
+    max-width: 343px;
+  }
+  .footer-content-location p {
+    max-width: 343px;
+  }
+}
